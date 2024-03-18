@@ -1,2 +1,0 @@
-# wordpress-dev
-wordpress-devlopment
