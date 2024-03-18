@@ -1,0 +1,132 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1184px"
+        },
+        "color": {
+            "palette": [
+                {
+                    "slug": "paper-black",
+                    "color": "#000000",
+                    "name": "Black"
+                },
+                {
+                    "slug": "paper-gray",
+                    "color": "#8B8B8B",
+                    "name": "Gray"
+                },
+                {
+                    "slug": "paper-white",
+                    "color": "#FFFFFF",
+                    "name": "White"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Inter', sans-serif",
+                    "slug": "inter",
+                    "name": "Inter - Body",
+                    "fontFace": [
+                        {
+                            "fontFamily": "'Inter', sans-serif",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": ["file:./assets/fonts/Inter/Inter-Light.tff"]
+                        },
+                        {
+                            "fontFamily": "'Inter', sans-serif",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": ["file:./assets/fonts/Inter/Inter-Regular.tff"]
+                        }
+                    ]
+                }
+            ]
+        },
+        "custom": {
+            "typography": {
+                "font-size": {
+                    "head1":"clamp(2.113rem, 1.9252rem + 0.9390000000000001vw, 3.052rem)",
+                    "head2":"clamp(1.699rem, 1.550600000000002rem + 0.741999999999998vw, 2.441rem)",
+                    "head3":"clamp(1.35rem, 1.2294rem + 0.603vw, 1.953rem)",
+                    "head4":"clamp(1.063rem, 1.0259999999999998rem + 0.187000000000008vw, 1.251rem)"
+                }
+            },
+            "line-height": {
+                "tiny": 1.15,
+                "small": 1.3,
+                "medium": 1.4,
+                "large": 1.6
+            }
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "units":["px","em","rem","vh","vw","%"]
+        },
+        "border": {
+            "radius": true,
+            "color": true,
+            "style": true,
+            "width": true
+        }
+    },
+    "styles": {
+        "color": {
+            "background":"var(--wp--preset--color--white)",
+            "text":"var(--wp--preset--color--paper-black)"
+        },
+        "typography": {
+            "fontFamily":"var(--wp--preset--font-family--inter)",
+            "lineHeight":"var(--wp--custom--line-height--large)",
+            "fontSize":"1rem"
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontWeight":"800",
+                    "fontSize":"var(--wp--custom--typography--font-size--head-1)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "border": {
+                    "color":"currentColor",
+                    "radius": "0"
+                },
+                "color": {
+                    "background":"var(--wp--preset--color--paper-black)",
+                    "text":"var(--wp--preset--color--white)"
+                },
+                "spacing": {
+                    "padding": {
+                        "top":"0.7em",
+                        "right":"1em",
+                        "bottom":"0.7em",
+                        "left":"1em"
+                    }
+                }
+            }
+        }
+    },
+    "templateParts": [
+        {
+            "name": "header",
+            "area": "header",
+            "title": "Header"
+        },
+        {
+            "name": "footer",
+            "area": "footer",
+            "title": "Footer"
+        }
+    ]
+}
