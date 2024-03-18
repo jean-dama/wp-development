@@ -15,7 +15,7 @@ administrativo.
 
 Parte 2: Plugins: três plugins instalados para usoWooCommerce, Yoast SEO, e Contact Form.
 
-Parte 4: Desenvolvimento de um Tipo de Post Personalizado (CPT) com Meta Boxes e
+Parte 3: Desenvolvimento de um Tipo de Post Personalizado (CPT) com Meta Boxes e
 Taxonomias, com suporte para editor, e campo personalizado para a URL do projeto.
 
 Telas:
