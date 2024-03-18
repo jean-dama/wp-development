@@ -3,7 +3,7 @@
 Projeto com intuito de teste e estudos.
 
 Parte 1: Desenvolvimento e customização
-Desenvolvimento de Tema Personalizado
+Desenvolvimento de Tema Personalizado chamado Paper.
 ● Um header customizado com menu de navegação.
 ● Uma página inicial que exibe post em destaque.
 ● Uma página blog.
